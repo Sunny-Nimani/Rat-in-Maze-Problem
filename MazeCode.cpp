@@ -268,11 +268,11 @@ nn--;
 
 if(solution[0][0]==1)
 {
-boundaryfill(71,71,10,15);
+boundaryfill(71,71,7,15);
 }
 else
 {
-boundaryfill(71,71,4,15);
+boundaryfill(71,71,7,15);
 }
 if(solution[0][1]==1)
 {
@@ -494,12 +494,12 @@ boundaryfill(183,218,4,15);
 
 if(solution[4][4]==1)
 {
-boundaryfill(218,218,10,15);
+boundaryfill(218,218,7,15);
 
 }
 else
 {
-boundaryfill(218,218,4,15);
+boundaryfill(218,218,7,15);
 }
 
 

@@ -174,8 +174,8 @@ for(int j=0;j<M;j++)
 }
 
 
-      //int  maze[N][M];
-    /*  cout<<"\nEnter maze elements\n";
+      int  maze[N][M];
+      cout<<"\nEnter maze elements\n";
 
 for(int i=0;i<N;i++)
 {
@@ -187,14 +187,14 @@ for(int j=0;j<M;j++)
 }
 
 }
-*/
+
 
 int gd=DETECT,gm;
 initgraph(&gd,&gm,NULL);
 
 
 
-    // Maze matrix
+   /* // Maze matrix
     int  maze[N][M] = {
         { 1, 0, 0, 1, 1 },
         { 1, 0, 1, 0, 1 },
@@ -202,7 +202,7 @@ initgraph(&gd,&gm,NULL);
         { 1, 1, 1, 0, 1 },
         { 0, 0, 0, 0, 1 }
     };
-
+*/
     // Food coordinates
     fx = 4;
     fy = 4;
